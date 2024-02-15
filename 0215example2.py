@@ -8,5 +8,5 @@ print(x(5,10,15))
 def my_function(n):
     return lambda a: a * n
 
-result = my_function(2) 
-print(result(10))
+result = my_function(2) #gives a value to n
+print(result(10)) #gives a value to a
